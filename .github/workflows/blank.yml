@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello"
       - name: Printing second
         run: echo "Bye"
+      - name: Double line Printing
+        run: |
+          echo "Hello One"
+          echo "Hello Two"
